@@ -1,0 +1,150 @@
+/*image at top*/
+/* Center the profile image inside this container */
+.imgcontainer {
+    text-align: center;
+    margin: 12px 0 6px 0;
+}
+
+/* Profile image */
+img.profile {
+    width: 40%;
+    border-radius: 5%;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+
+/*css for menu*/
+.dropbtn {
+    background-color: blue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+/*new section*/
+
+body {
+    font-family: Courier;
+    margin: 0px;
+    padding-left: 40px;
+    padding-right: 40px;    
+}
+
+#wrapper {
+    text-align: center;
+    height: auto;
+    margin: auto;
+    min-width: 500px;   
+}
+
+#wrap {
+    display: inline;
+}
+
+ul {
+    font-family: /Courier, Courier;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu > li {
+    display: block;
+    position: relative;
+    float: left;
+    width: 33.3%;
+}
+
+
+li ul {
+    display: none;
+}
+/*text such as Find Us*/
+ul li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid #ffffff;
+    padding: 5px 15px 5px 15px;
+    background: #1e7c9a;
+    margin-left: 1px;
+    white-space: nowrap;
+}
+/*what color the bit under the mouse is*/
+ul li a:hover {
+background: black;
+}
+
+li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+li:hover li {
+    float: none;
+    font-size: 14px;
+}
+/*what color the tab goes when you hover over it*/
+li:hover a { 
+    background: black;
+}
+
+li:hover li a:hover {
+    background-color: black;
+    opacity: .7;
+}
+
+/*share pages*/
+/*
+<style type="text/css">
+ 
+#share-buttons img {
+width: 35px;
+padding: 5px;
+border: 0;
+box-shadow: 0;
+display: inline;
+text-align: right;
+}
+ 
+</style>*/
+#mail-button{
+text-align: center;
+}
+/*nav bar*/
+.navbar {
+    background-color: lightblue;
+}
